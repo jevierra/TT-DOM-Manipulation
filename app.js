@@ -1,7 +1,9 @@
 const  myHeading = document.getElementById('myHeading');
+const  myButton = document.getElementById('myButton');
+const  myInput = document.getElementById('myInput');
 
-myHeading.addEventListener('click' ,() => {
-	myHeading.style.color= 'red'
+myButton.addEventListener('click' , () => {
+	myHeading.style.color = myInput.value;
 
 
 });
